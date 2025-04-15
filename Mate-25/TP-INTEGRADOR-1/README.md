@@ -1,15 +1,16 @@
-# Trabajo Práctico Integrador 1
+# Trabajo Práctico Integrador
 
-Este repositorio contiene el Trabajo Práctico Integrador 1 realizado para la materia **Matemática 25** de la carrera **Tecnicatura Universitaria en Programación a Distancia (TUPaD)** en la **Universidad Tecnológica Nacional (UTN)**.
+Esta carpeta contiene el Trabajo Práctico Nº1 realizado para la materia **Matemáticas** de la carrera **Tecnicatura Universitaria en Programación a Distancia (TUPaD)** de la **Universidad Tecnológica Nacional (UTN)**.
 
 ## Año
 2025
 
 ## Integrantes del Grupo
-- **Integrante 1**: Nombre Apellido
-- **Integrante 2**: Nombre Apellido
-- **Integrante 3**: Nombre Apellido
-- **Integrante 4**: Nombre Apellido
+- **Colman**, Nicolas Alberto
+- **Cantoni**, Macarena
+- **Caiciia Massello**, Santiago
+- **Campoy**, Guillermo
+- **Cisneros**, Luis
 
 ## Descripción
 
@@ -26,7 +27,7 @@ Este repositorio contiene el Trabajo Práctico Integrador 1 realizado para la ma
 ## Instrucciones de Uso
 1. Clonar el repositorio:
     ```bash
-    git clone [https://github.com/guillecampoy/UTN-TUPaD-Grupales]
+    git clone https://github.com/guillecampoy/UTN-TUPaD-Grupales
     ```
 2. Navegar al directorio del proyecto:
     ```bash
