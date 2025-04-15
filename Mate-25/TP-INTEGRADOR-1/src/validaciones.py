@@ -19,3 +19,21 @@
 
 
 # Validación de entrada para la conversión decimal a binario
+def validar_decimal(cadena):
+    cadena = cadena.strip()
+
+    if not cadena:
+        raise ValueError("No se ingresó ningún valor")
+
+    if not cadena.isdigit():
+        raise ValueError("Debe ser un número entero positivo")
+
+    numero = int(cadena)
+
+    if numero < 0:
+        raise ValueError("El número debe ser mayor o igual a cero")
+
+    if cadena.lstrip("0") != cadena and numero != 0:
+        raise ValueError("El número no debe tener ceros a la izquierda")
+
+    return numero
