@@ -8,12 +8,21 @@
 
 # Validación de entrada para la conversión binario a decimal 
 
+def validar_binario(cadena):
+    cadena = cadena.strip()
 
+    if not cadena:
+        raise ValueError("No se ingresó ningún valor")
 
+    if not all(caracter in "01" for caracter in cadena):
+        raise ValueError("Debe ser un número binario")
 
+    numero = int(cadena, 2)
 
+    if cadena.lstrip("0") != cadena and numero != 0:
+        raise ValueError("El número no debe tener ceros a la izquierda")
 
-
+    return numero
 
 
 
