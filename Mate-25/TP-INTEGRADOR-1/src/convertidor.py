@@ -1,4 +1,4 @@
-from .validaciones import validar_decimal
+from validaciones import validar_decimal
 
 #Funcion para convertir de decimal a binario
 

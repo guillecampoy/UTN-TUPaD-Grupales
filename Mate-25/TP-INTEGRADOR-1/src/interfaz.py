@@ -4,6 +4,7 @@
 
 import validaciones
 import Conversion_binario_decimal
+import convertidor
 
 # Seleccionar la operación
 print("------------------------------------------")
@@ -21,6 +22,8 @@ try:
     if opcion in ("a", "A"):
         dec_a_bin = input("Ingresá el número decimal que queres convertir: ")
         validaciones.validar_decimal(dec_a_bin)
+        valor_bin = convertidor.decimal_binario(dec_a_bin)
+        print(f"El número decimal {dec_a_bin} convertido a binario es: {valor_bin}")
 
     if opcion in ("b", "B"):
         bin_a_dec = input("Ingresá el número binario que queres convertir: ")
