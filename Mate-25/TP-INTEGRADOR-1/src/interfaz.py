@@ -3,11 +3,15 @@
 # validar datos.
 
 import validaciones
+import Conversion_binario_decimal
 
 # Seleccionar la operación
+print("------------------------------------------")
+print("TP INTEGRADOR 1: CONVERSOR BINARIO/DECIMAL")
+print("------------------------------------------ \n")
 print("Selecciona la operación que desees realizar")
-print("A para convertir de decimal a binario")
-print("B para convertir de binario a decimal.")
+print(" --> A para convertir de decimal a binario")
+print(" --> B para convertir de binario a decimal.")
 
 # Validar que las opciones ingresadas sean correctas.
 # Se pide ingresar el número que se desea convertir.
@@ -21,6 +25,8 @@ try:
     if opcion in ("b", "B"):
         bin_a_dec = input("Ingresá el número binario que queres convertir: ")
         validaciones.validar_binario(bin_a_dec)
+        valor_dec = Conversion_binario_decimal.binario_a_decimal_alternativo(bin_a_dec)
+        print(f"El número binario {bin_a_dec} convertido a decimal es: {valor_dec}") 
 except ValueError as e:
     print(e)
 
