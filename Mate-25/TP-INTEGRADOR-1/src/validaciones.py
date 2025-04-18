@@ -46,3 +46,9 @@ def validar_decimal(cadena):
         raise ValueError("El número no debe tener ceros a la izquierda")
 
     return numero
+
+# Validar que se ingrese una opción válida (A o B)
+
+def validar_opcion(opcion):
+    if opcion not in ("A", "B", "a", "b"):
+        raise ValueError("Las opciones válidas son A o B")
