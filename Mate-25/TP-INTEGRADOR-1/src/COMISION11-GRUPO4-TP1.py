@@ -1,1 +1,0 @@
-# File base a modificar para el ejercicio 1

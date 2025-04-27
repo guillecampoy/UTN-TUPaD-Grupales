@@ -35,6 +35,14 @@ Esta carpeta contiene el Trabajo Práctico Nº1 realizado para la materia **Mate
     ```
 3. Seguir las instrucciones específicas en la documentación.
 
+## Test
+
+Para ejecutar los test de validaciones, ejecutar el siguiente comando:
+
+```bash
+python3 -m unittest tests.test_validaciones
+```
+
 ## Licencia
 Este proyecto es de uso académico y no está destinado para distribución comercial.
 
